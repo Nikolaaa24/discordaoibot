@@ -348,8 +348,8 @@ const voice = new aoijs.Voice(bot, {
     //clientId: "SoundCloud clientID", //remove the double slash if you want soundcloud
   },
   cache: {
-    cacheType: "Disk",//Disk, Memory,
-    directory: "./cache/",
+    cacheType: "Memory",//Disk, Memory,
+    //directory: "./cache/",
     enabled: true,
   },
 }, false); //true or false for pruneMusic
